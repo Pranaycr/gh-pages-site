@@ -1,0 +1,8 @@
+:root { --max: 760px; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.5; }
+main { max-width: var(--max); margin: 20vh auto; padding: 0 1rem; text-align: center; }
+h1 { font-size: clamp(2rem, 3vw + 1.2rem, 3rem); margin-bottom: .25rem; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+footer { text-align: center; padding: 2rem 0; color: #444; }
